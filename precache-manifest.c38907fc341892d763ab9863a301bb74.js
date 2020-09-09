@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b4008ae7d87950e88655c3cc80e6940b",
+    "revision": "6afa275bbe6d7c5dbdb2742996a7dd65",
     "url": "/search-music-last-fm/index.html"
   },
   {
-    "revision": "5fde024e1de2cf830994",
-    "url": "/search-music-last-fm/static/css/main.2936a7a3.chunk.css"
+    "revision": "eba3b447489e8def5d2c",
+    "url": "/search-music-last-fm/static/css/main.f0d7938e.chunk.css"
   },
   {
     "revision": "faedd56b2c79dcdfc350",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/search-music-last-fm/static/js/2.4aa8411c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5fde024e1de2cf830994",
+    "revision": "eba3b447489e8def5d2c",
     "url": "/search-music-last-fm/static/js/main.523df9b2.chunk.js"
   },
   {
