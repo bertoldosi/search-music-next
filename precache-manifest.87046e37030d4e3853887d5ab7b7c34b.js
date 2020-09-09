@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1e7270454f72cebdaef2c841300d4b58",
+    "revision": "740da8788bdd9f4b44f1480d9248f24e",
     "url": "/search-music-last-fm/index.html"
   },
   {
-    "revision": "0bddb4e32231efae60c3",
+    "revision": "be07145a0eb9d9f7b5db",
     "url": "/search-music-last-fm/static/css/main.2936a7a3.chunk.css"
   },
   {
-    "revision": "abca239b1462c4356b05",
-    "url": "/search-music-last-fm/static/js/2.1d3b9035.chunk.js"
+    "revision": "faedd56b2c79dcdfc350",
+    "url": "/search-music-last-fm/static/js/2.4aa8411c.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/search-music-last-fm/static/js/2.1d3b9035.chunk.js.LICENSE.txt"
+    "url": "/search-music-last-fm/static/js/2.4aa8411c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0bddb4e32231efae60c3",
-    "url": "/search-music-last-fm/static/js/main.00849b9f.chunk.js"
+    "revision": "be07145a0eb9d9f7b5db",
+    "url": "/search-music-last-fm/static/js/main.3ea8366c.chunk.js"
   },
   {
     "revision": "632b4e39c829866c9f37",
