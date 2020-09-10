@@ -1,26 +1,26 @@
-<p align="center">
-   <img src="![Captura de tela de 2020-09-09 22-52-34](https://user-images.githubusercontent.com/42129177/92681702-f9ca9780-f2f3-11ea-90a6-c46c7a9078b0.png)" alt="logo" width="280"/>
-</p>
-
-<div align="center">
-
-[![GitHub stars](https://img.shields.io/github/stars/bertoldosi/search-music-last-fm)](https://github.com/bertoldosi/search-music-last-fm)<space> <space>[![GitHub license](https://img.shields.io/github/license/bertoldosi/search-music-last-fm)](https://github.com/bertoldosi/search-music-last-fm/blob/master/LICENSE)<space> <space>[![GitHub forks](https://img.shields.io/github/forks/bertoldosi/search-music-last-fm)](https://github.com/bertoldosi/search-music-last-fm/)
-
-</div>
-
 
 ## 🖥 Visualização:
 
 ### Web
-<p>  
-  <img alt="Web Preview" title="Web-preview" src="https://i.imgur.com/QF0nxXw.mp4" width="800px">
+<p align="center">
+  <img alt="Web Preview" title="Web-preview" src="https://user-images.githubusercontent.com/42129177/92681975-c0def280-f2f4-11ea-9c3b-9c2775af7520.gif" width="800px">
+
+### Mobile
+<p align="center">
+  <img alt="Web Preview" title="Web-preview" src="https://user-images.githubusercontent.com/42129177/92683764-5aa89e80-f2f9-11ea-8007-00a066102453.gif" width="300px"">
+  
 </p>
+
+
+
+
 
 ---
 
 ## 📖 Sobre:
 
-Uma aplicação de front-end usando ReactJS em que fosse possível realizar buscas por artistas e álbuns e retornar os dados que vem através da API do LAST.FM. É possível também, salvar o histórico de buscas, e limpar quando for necessário. 
+Uma aplicação desenvolvida em ReactJS no qual é possível realizar buscas por artistas e albuns disponibilidados pela API do LAST.FM. Além de ser possives listar todas as pesquisas, tambem é possivel ter acesso a historico de suas pesquisas realizadas.
+
 
 --- 
 
