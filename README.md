@@ -1,5 +1,5 @@
 <p align="center">
-   <img src="logo.PNG" alt="logo" width="280"/>
+   <img src="![Captura de tela de 2020-09-09 22-52-34](https://user-images.githubusercontent.com/42129177/92681702-f9ca9780-f2f3-11ea-90a6-c46c7a9078b0.png)" alt="logo" width="280"/>
 </p>
 
 <div align="center">
