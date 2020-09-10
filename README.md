@@ -61,7 +61,7 @@ cd search-music-last-fm
 npm i
 
 # Executar o servidor
-npm run dev
+npm run start
 ```
 
 Feito isso, abra o seu navegador e acesse `http://localhost:3000/`
