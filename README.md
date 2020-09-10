@@ -19,7 +19,7 @@
 
 ## 📖 Sobre:
 
-Uma aplicação desenvolvida em ReactJS no qual é possível realizar buscas por artistas e albuns disponibilidados pela API do LAST.FM. Além de ser possives listar todas as pesquisas, tambem é possivel ter acesso a historico de suas pesquisas realizadas.
+Uma aplicação desenvolvida em ReactJS no qual é possível realizar buscas por artistas e albuns disponibilidados pela API do LAST.FM. Além de ser possivel listar todas as pesquisas, tambem é possivel ter acesso ao historico de suas pesquisas realizadas.
 
 
 --- 
