@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/search-music-last-fm/static/css/main.774aecb0.chunk.css",
-    "main.js": "/search-music-last-fm/static/js/main.d1876542.chunk.js",
-    "main.js.map": "/search-music-last-fm/static/js/main.d1876542.chunk.js.map",
+    "main.js": "/search-music-last-fm/static/js/main.e09a2fa1.chunk.js",
+    "main.js.map": "/search-music-last-fm/static/js/main.e09a2fa1.chunk.js.map",
     "runtime-main.js": "/search-music-last-fm/static/js/runtime-main.6cbb6a5e.js",
     "runtime-main.js.map": "/search-music-last-fm/static/js/runtime-main.6cbb6a5e.js.map",
     "static/js/2.252a7dcb.chunk.js": "/search-music-last-fm/static/js/2.252a7dcb.chunk.js",
     "static/js/2.252a7dcb.chunk.js.map": "/search-music-last-fm/static/js/2.252a7dcb.chunk.js.map",
     "index.html": "/search-music-last-fm/index.html",
-    "precache-manifest.051b53b4dc69c26b5e2fc05eda4b0b0a.js": "/search-music-last-fm/precache-manifest.051b53b4dc69c26b5e2fc05eda4b0b0a.js",
+    "precache-manifest.74de3d861484e0c1720cb89545eb7349.js": "/search-music-last-fm/precache-manifest.74de3d861484e0c1720cb89545eb7349.js",
     "service-worker.js": "/search-music-last-fm/service-worker.js",
     "static/css/main.774aecb0.chunk.css.map": "/search-music-last-fm/static/css/main.774aecb0.chunk.css.map",
     "static/js/2.252a7dcb.chunk.js.LICENSE.txt": "/search-music-last-fm/static/js/2.252a7dcb.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.6cbb6a5e.js",
     "static/js/2.252a7dcb.chunk.js",
     "static/css/main.774aecb0.chunk.css",
-    "static/js/main.d1876542.chunk.js"
+    "static/js/main.e09a2fa1.chunk.js"
   ]
 }
