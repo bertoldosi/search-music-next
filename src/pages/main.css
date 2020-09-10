@@ -6,5 +6,6 @@
     top: 150px;
     position: absolute;
     background-color: white;
+    border: #2C3E50 .1rem solid;
     border-radius: .3rem;
 }

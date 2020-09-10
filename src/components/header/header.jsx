@@ -7,7 +7,7 @@ export default class Header extends Component{
         return (
             <header>
                 <div className='logo'>
-                    <h1>SQUADS</h1>
+                    <h1>MUSIC</h1>
                 </div>
                 <div className='navBar'>
                     <Link to='/'>PESQUISA</Link>

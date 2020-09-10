@@ -1,5 +1,12 @@
 .search{
-    margin: 4rem 0;
+    margin-bottom: 4rem;
+}
+
+.search .title{
+    margin-bottom: 4rem;
+    padding-top: 1rem;
+    text-align: center;
+    color: red;
 }
 
 .search a{
@@ -14,12 +21,12 @@
 
 .search .search-leftt{
     left: 2rem;
-    bottom: 2rem;
+    bottom: 1rem;
 }
 
 .search  .search-rightt{
     right: 2rem;
-    bottom: 2rem;
+    bottom: 1rem;
 }
 
 .search a:hover{

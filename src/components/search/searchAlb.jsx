@@ -28,6 +28,7 @@ class SearchAlb extends Component {
 
     return (
       <div className='search'>
+        <h1 className='title'>Pesquisando por albuns</h1>
         <form onSubmit={this.onFormSubmit}>
           <div className='search-input'>
             <input type="text"
@@ -35,7 +36,7 @@ class SearchAlb extends Component {
               onChange={e => this.setState({ text: e.target.value })} placeholder='Digite o nome do album' required></input>
           </div>
           <div className='search-button'>
-            <button type='submit' value='pesquisar'>PESQUISAR</button>
+            <button className='a' type='submit' value='pesquisar'>PESQUISAR</button>
             <button onClick={refreshPage}>LIMPAR</button>
           </div>
         </form>

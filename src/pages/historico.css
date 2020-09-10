@@ -6,11 +6,12 @@
     top: 150px;
     position: absolute;
     background-color: white;
+    border: #2C3E50 .1rem solid;
     border-radius: .3rem;
 }
 
 .historico .header{
-    border-bottom: solid .1rem black;
+    border-bottom: solid .1rem #333333;
     margin: 6rem 4rem;
     padding-bottom: 1rem;
 

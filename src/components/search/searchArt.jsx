@@ -28,6 +28,7 @@ class SearchArt extends React.Component {
 
     return (
       <div className='search'>
+        <h1 className='title'>Pesquisando por artistas</h1>
         <form onSubmit={this.onFormSubmit}>
           <div className='search-input'>
             <input type="text"
