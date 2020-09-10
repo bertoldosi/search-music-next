@@ -46,6 +46,11 @@ Uma aplicação desenvolvida em ReactJS no qual é possível realizar buscas por
 ## ⌨ Como Executar o Projeto:
 
 ```bash
+
+# Baixe o repositório na barra superior a direita
+
+ou
+
 # Clonar o repositório
 git clone https://github.com/bertoldosi/search-music-last-fm/
 
@@ -63,10 +68,7 @@ Feito isso, abra o seu navegador e acesse `http://localhost:3000/`
 
 ---
 
+Para acessar clique em: https://bertoldosi.github.io/search-music-last-fm/
 
+---
 Desenvolvido por Matheus Bertoldo !
-
-
-
-
-
