@@ -1,0 +1,6 @@
+.app{
+    max-width: max-content;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}

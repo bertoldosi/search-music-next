@@ -1,0 +1,55 @@
+.resultado{
+    width: 100%;
+    max-width: 1000px;
+    padding-bottom: 4rem;
+    background-color: white;
+    position: absolute;
+    display: grid;
+    grid-template-columns: 1fr 1fr  1fr;
+}
+
+.artista{
+    margin: 1rem 2rem;
+    padding-bottom: 1rem;
+    border-bottom: solid .1rem #a19c9c;
+    display: flex;
+    align-items: center;
+}
+
+.artista .info{
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.artista img{
+    margin-right: .5rem;
+    border-radius: 50%;
+}
+
+.artista .info h2{
+    font-size: .8rem;
+    font-weight: 400;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.artista .info h2:hover{
+    font-size: 1rem;
+    font-weight: 600;
+    color: #1ABC9C;
+    transition: .5s;
+}
+
+@media (max-width: 920px) {
+    .resultado{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 620px) {
+    .resultado{
+        grid-template-columns: 1fr;
+    }
+}

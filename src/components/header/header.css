@@ -1,0 +1,72 @@
+header{
+    width: 100vw;
+    height: 200px;
+    background-color: #1ABC9C;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    font-size: 1rem;
+    margin: 0 4rem;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.logo:hover{
+    transition: .5s;
+    font-size: 2rem;
+}
+
+.navBar{
+    margin: 0 4rem;
+}
+
+.navBar a{
+    padding: .5rem;
+    margin: 1rem;
+    border-radius: .3rem;
+    font-size: 1.5rem;
+    border: .1px  solid transparent;
+    transition: .5s;
+}
+
+.navBar a:hover{
+    font-weight: 600;
+    transition: .5s;
+    border: .2rem solid #333333;
+}
+
+/*    */
+@media (max-width: 610px) { 
+    .logo{
+        font-size: .8rem;
+        margin-right: 2rem;
+    }
+    .navBar{
+        margin: 0 2rem;
+    }
+    .navBar a{
+        padding: .2rem;
+        margin: .5rem;
+        font-size: 1rem;
+    } 
+} /* 610px */
+
+@media (max-width: 420px) { 
+    .logo{
+        font-size: .6rem;
+        margin-right: .5rem;
+        margin-left: 2rem;
+    }
+    .navBar{
+        margin-left: .5rem;
+        margin-right: 1rem;
+    }
+    .navBar a{
+        padding: .1rem;
+        margin: .3rem;
+        font-size: 1rem;
+    } 
+} /* 420px */
