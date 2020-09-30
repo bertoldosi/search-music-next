@@ -37,7 +37,7 @@ class SearchAlb extends Component {
           </div>
           <div className='search-button'>
             <button className='a' type='submit' value='pesquisar'>PESQUISAR</button>
-            <button onClick={refreshPage}>LIMPAR</button>
+            <button type='reset' onClick={refreshPage}>LIMPAR</button>
           </div>
         </form>
         

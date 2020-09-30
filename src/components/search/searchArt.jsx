@@ -37,7 +37,7 @@ class SearchArt extends React.Component {
           </div>
           <div className='search-button'>
             <button type='submit' value='pesquisar'>PESQUISAR</button>
-            <button onClick={refreshPage}>LIMPAR</button>
+            <button type='reset' onClick={refreshPage}>LIMPAR</button>
           </div>
         </form>
         <Link className='search-rightt' to='/mainAlb'>Buscar por album</Link>
