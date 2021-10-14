@@ -2,7 +2,7 @@ import React from "react";
 
 import styles from "./styles.module.scss";
 
-const ResultadoArt = ({ resultado }) => {
+const Resultado = ({ resultado }) => {
    return (
       <div className={styles.Resultado} key={resultado.id}>
          {resultado.map((art) => {
@@ -30,4 +30,4 @@ const ResultadoArt = ({ resultado }) => {
    );
 };
 
-export default ResultadoArt;
+export default Resultado;
