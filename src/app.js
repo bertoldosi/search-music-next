@@ -1,15 +1,7 @@
-import React from 'react'
-import './app.css'
+import React from "react";
 
-import Header from './components/header/header'
+import Routes from "./routes";
 
-import Routes from './routes'
-
-
-export default props => {
-    return (
-        <div className='app'>
-            <Routes />
-        </div>
-    )
-}
+export default (props) => {
+   return <Routes />;
+};

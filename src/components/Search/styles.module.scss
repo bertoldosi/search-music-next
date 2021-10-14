@@ -1,0 +1,65 @@
+.Search {
+   margin-bottom: 4rem;
+   padding: 0 3em;
+
+   &Title {
+      font-size: 1rem;
+      margin-bottom: 4rem;
+      padding-top: 1rem;
+      text-align: center;
+      color: var(--dark-red);
+
+      select {
+         border: none;
+         background: none;
+         font-size: 1rem;
+         outline: none;
+      }
+   }
+
+   &Form {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+
+      input {
+         width: 100%;
+         max-width: 30rem;
+         margin-bottom: 2rem;
+         padding: 0.5rem 0;
+         border-bottom: 0.1rem solid var(--grey);
+
+         &placeholder {
+            padding: 2rem;
+         }
+      }
+
+      &Button {
+         width: 100%;
+         display: flex;
+         justify-content: center;
+         button {
+            margin: 0 1rem;
+            font-size: 0.8rem;
+            transition: 0.5s;
+
+            &:hover {
+               font-size: 0.9rem;
+               border: solid 0.2rem var(--light-green);
+               font-weight: 600;
+               margin: 0 2rem;
+               transition: 0.5s;
+            }
+         }
+
+         @media (max-width: 390px) {
+            align-items: center;
+            flex-direction: column;
+
+            button:first-child {
+               margin-bottom: 0.5rem;
+            }
+         }
+      }
+   }
+}

@@ -1,0 +1,66 @@
+.Historico {
+   width: 90%;
+   max-width: 1000px;
+   height: max-content;
+
+   top: 150px;
+   position: absolute;
+   background-color: white;
+   border: #2c3e50 0.1rem solid;
+   border-radius: 0.3rem;
+
+   &Header {
+      border-bottom: solid 0.1rem var(--light-grey);
+      margin: 6rem 4rem;
+      padding-bottom: 1rem;
+
+      color: var(--light-grey);
+      font-family: monospace;
+
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      button {
+         width: max-content;
+         border: none;
+         font-weight: 500;
+         font-size: 1rem;
+         color: var(--dark-red);
+         transition: 0.5s;
+         border: 0.1px solid transparent;
+
+         &:hover {
+            border: solid 0.1rem;
+            transition: 0.5s;
+         }
+      }
+
+      @media (max-width: 510px) {
+         border-bottom: solid 0.1rem black;
+         margin: 6rem 2rem;
+
+         button {
+            font-size: 0.8rem;
+         }
+      }
+   }
+
+   &Content {
+      margin: 2rem 4rem;
+
+      h2 {
+         font-weight: 500;
+         font-size: 1.2rem;
+         margin-right: 1rem;
+      }
+
+      span {
+         font-size: 0.8rem;
+      }
+
+      @media (max-width: 510px) {
+         margin: 2rem 2rem;
+      }
+   }
+}

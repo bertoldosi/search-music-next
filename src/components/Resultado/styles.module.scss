@@ -1,0 +1,50 @@
+.Resultado {
+   width: 100%;
+   max-width: 1000px;
+   background-color: white;
+   position: absolute;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+
+   &Content {
+      margin: 1rem 2rem;
+      padding-bottom: 1rem;
+      border-bottom: solid 0.1rem var(--grey);
+      display: flex;
+      align-items: center;
+
+      img {
+         margin-right: 0.5rem;
+         border-radius: 50%;
+      }
+
+      &Info {
+         width: 100%;
+         overflow: hidden;
+         display: flex;
+         align-items: center;
+
+         h2 {
+            font-size: 0.8rem;
+            font-weight: 400;
+            overflow: hidden;
+            transition: 0.5s;
+
+            &:hover {
+               font-size: 1rem;
+               font-weight: 600;
+               color: var(--light-green);
+               transition: 0.5s;
+            }
+         }
+      }
+
+      @media (max-width: 920px) {
+         grid-template-columns: 1fr 1fr;
+      }
+
+      @media (max-width: 620px) {
+         grid-template-columns: 1fr;
+      }
+   }
+}

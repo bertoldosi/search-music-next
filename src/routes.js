@@ -1,19 +1,19 @@
-import React from 'react'
+import React from "react";
 
 import { Route, HashRouter } from "react-router-dom";
-import Header from './components/header/header'
 
-import MainArt from './pages/mainArt'
-import MainAlb from './pages/mainAlb'
-import Historico from './pages/historico'
+import Main from "./pages/Main";
+import Historico from "./pages/Historico";
+import Header from "./components/Header";
 
 const Routes = () => (
-    <HashRouter>
-        <Header />
-        <Route exact path='/' component={MainArt}></Route>
-        <Route path='/mainAlb' component={MainAlb}></Route>
-        <Route path='/historico' component={Historico}></Route>
-    </HashRouter>
-)
+   <HashRouter>
+      <div className="app">
+         <Header />
+         <Route exact path="/" component={Main} />
+         <Route path="/historico" component={Historico} />
+      </div>
+   </HashRouter>
+);
 
-export default Routes
+export default Routes;
